@@ -635,7 +635,7 @@ ol {
 }
 
 .pt-150 {
-  padding-top: 150px;
+  padding-top: 150px!important;
 }
 
 .pt-155 {
@@ -1705,6 +1705,7 @@ ol {
   -webkit-transition: all 0.3s ease-out 0s;
   transition: all 0.3s ease-out 0s;
   padding: 0;
+  background: #3865F2;
 }
 
 .navbar-area.sticky {
@@ -2208,8 +2209,16 @@ nav h1 {
   .hero-area .hero-content .button .btn:last-child {
     margin: 0;
   }
+  .policy h1 {
+    font-size: 30px;
+  }
+  .policy h2 {
+    font-size: 24px;
+  }
 }
-
+.policy p {
+  margin: 20px 0;
+}
 /*======================================
     Features Area CSS
 ========================================*/
